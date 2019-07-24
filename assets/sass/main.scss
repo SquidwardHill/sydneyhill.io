@@ -1,0 +1,38 @@
+// HELPERS
+@import 'helpers/variables';
+@import 'helpers/typography';
+//@import 'helpers/utilities';
+
+// PARTIALS
+@import './partials/header';
+@import './partials/tagline';
+@import './partials/footer';
+@import './partials/nav';
+
+// BOX-SIZING - FONT-SIZING PRESETS
+html {
+  font-size: 62.5%; // Scales 1 rem unit to 10px
+
+  &[data-scroll='disabled'],
+  &[data-state='menu-active'] {
+    overflow: hidden;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.main {
+  font-size: 1.6rem; // = 16px default font size
+  background-color: $alabaster;
+}
+
+// Text Highlight Color
+::selection {
+  background: rgba($suva-gray, 0.2);
+}
+
+

@@ -1,0 +1,57 @@
+// Colors
+$white: #fff;
+$alabaster: #f8f8f8;
+$bon-jour: #e1dee0;
+$pale-slate: #c0bcbf;
+$suva-gray: #8a7e85;
+$gravel: #504951;
+$ship-gray: #3b343c;
+$baltic-sea: #322c33;
+
+$claret: #6e1834;
+$claret-1: #861d40;
+$claret-2: #a2254e;
+$punch: #d24423;
+$punch-1: #f35e3b;
+$punch-2: #ff886d;
+$clementine: #e65d00;
+$clementine: #e65d00;
+$clementine-1: #f88101;
+$clementine-2: #fc9d36;
+$pizza: #ca8a12;
+$pizza-1: #f1b606;
+$pizza-2: #ffc636;
+$barberry: #e8df1c;
+
+// Breakpoints
+// $breakpoints: (
+//   xs: 320px,
+//   sm: 550px,
+//   md: 768px,
+//   lg: 1024px,
+//   xl: 1440px
+// );
+
+// Settings
+$menu-height: 96px;
+$site-width: 1024px;
+$site-width-lg: 1440px;
+$grid-gap: 16px;
+$line-stroke: 8px;
+
+:root {
+  --spacing: 32px;
+  // --headerHeight: 100vh;
+
+  // @include media('>=sm') {
+  //   --spacing: 32px;
+  // }
+
+//   @include media('>=lg') {
+//     --spacing: 64px;
+//   }
+
+//   @include media('>=xl') {
+//     --spacing: 80px;
+//   }
+}

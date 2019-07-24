@@ -1,0 +1,31 @@
+// Site wrapper rules
+@mixin wrapper {
+  position: relative;
+  width: 100%;
+  max-width: $site-width-lg;
+  margin: 0 auto;
+  padding: 0 var(--spacing);
+}
+
+// Simplify position
+@mixin position(
+  $position: relative,
+  $top: null,
+  $right: null,
+  $bottom: null,
+  $left: null
+) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+// Hide text if needed
+@mixin hide-text {
+  color: transparent;
+  font-size: 0;
+  white-space: nowrap;
+  text-indent: 101%;
+}

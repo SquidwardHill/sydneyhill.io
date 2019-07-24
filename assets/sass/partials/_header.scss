@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  min-height: 30vh;
+  // min-height: var(--headerHeight);
+
+  [data-headertheme='light'] + & {
+    background-color: $alabaster;
+  }
+
+  [data-headertheme='dark'] + & {
+    background-color: $ship-gray;
+  }
+}

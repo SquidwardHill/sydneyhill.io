@@ -1,0 +1,11 @@
+.tagline {
+  background: $baltic-sea;
+  span {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.tagline__icon {
+  max-height: 45px;
+}
