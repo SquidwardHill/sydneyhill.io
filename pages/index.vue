@@ -1,19 +1,22 @@
 <template>
-  <section class="container">
+  <section>
     <Header></Header>
     <!-- <Counter></Counter> -->
     <Notepad></Notepad>
     <!-- Portfolio -->
     <section class="portfolio">
-      <div class="columns is-multiline">
-        <Portfolio
-          v-for="item in portfolio"
-          :key="item.id"
-          :title="item.title"
-          :canonical="item.canonical"
-          :description="item.description"
-        >
-        </Portfolio>
+      <div class="container has-padding-vertical has-padding-horizontal-mobile">
+        <div class="columns is-multiline">
+          <Portfolio
+            v-for="item in portfolio"
+            :key="item.id"
+            :title="item.title"
+            :canonical="item.canonical"
+            :description="item.description"
+            :image="item.image"
+          >
+          </Portfolio>
+        </div>
       </div>
     </section>
   </section>
@@ -46,4 +49,37 @@ export default {
   }
 }
 </script>
-<style></style>
+<style>
+/* .page-enter-active {
+  animation: acrossIn 0.4s ease-out both;
+}
+.page-leave-active {
+  animation: acrossOut 0.6s ease-in both;
+}
+@keyframes acrossIn {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes acrossOut {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(100%, 0, 0);
+  }
+} */
+
+page-enter-active,
+.page-leave-active {
+  transition: all 0.2s ease-out;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+  transform-origin: 50% 50%;
+}
+</style>

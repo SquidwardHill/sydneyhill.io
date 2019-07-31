@@ -1,12 +1,35 @@
 <template>
-  <!-- route params is a default paramater given to you by the vue router -->
-  <section class="portfolio-item">
-    <div class="container">
-      <p><strong>route:</strong> {{ $route.params.id }}</p>
-      <h1>{{ portfolio.title }}</h1>
-      <img src="" alt="" />
-      <p>{{ portfolio.description }}</p>
+  <section class="has-padding-vertical">
+    <div class="container ">
+      <div class="columns">
+        <div class="column is-three-quarters">
+          <h1 class="is-size-3 has-underline-clementine is-strong">
+            {{ portfolio.title }}
+          </h1>
+        </div>
+        <div class="column">
+          <nuxt-link
+            to="/"
+            class="button-close is-pulled-right has-gradient-sea-punch has-text-white-ter is-size-4"
+            >X</nuxt-link
+          >
+        </div>
+      </div>
     </div>
+    <!-- route params is a default paramater given to you by the vue router -->
+    <section class="portfolio-item">
+      <div class="container">
+        <br />
+        <p>{{ portfolio.description }}</p>
+        <img :src="portfolio.image" class="portfolio-page-image" />
+        <br />
+        <h5 class="is-size-6 is-strong">Project Goals</h5>
+        <p>{{ portfolio.goal }}</p>
+        <br />
+        <h5 class="is-size-6 is-strong">Process</h5>
+        <p>{{ portfolio.process }}</p>
+      </div>
+    </section>
   </section>
 </template>
 
@@ -20,7 +43,7 @@ export default {
     portfolio() {
       return this.$store.state.portfolio.filter(
         f => f.canonical === this.$route.params.id
-        // return the paramaters from the route
+        // return the paramaters from the route (filter where the canonical value matches the route paramater)
       )[0]
     }
   }
@@ -28,4 +51,26 @@ export default {
 </script>
 <style scoped>
 /* styles here */
+p {
+  white-space: pre-line;
+}
+
+.button-close {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.portfolio-page-image {
+  max-width: 550px;
+  margin: 2rem 0;
+}
+@media screen and (min-width: 1408px) {
+  .container {
+    /* max-width: 1344px; */
+    max-width: 1152px;
+  }
+}
 </style>

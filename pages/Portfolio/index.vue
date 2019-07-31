@@ -8,8 +8,8 @@
         :title="item.title"
         :canonical="item.canonical"
         :description="item.description"
-      >
-      </Portfolio>
+        :image="item.image"
+      ></Portfolio>
     </div>
   </section>
 </template>

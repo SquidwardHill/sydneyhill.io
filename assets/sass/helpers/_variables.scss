@@ -8,6 +8,12 @@ $gravel: #504951;
 $ship-gray: #3b343c;
 $baltic-sea: #322c33;
 
+$hot-pink: #ED3897;
+$fushia: #92278F;
+$sea-punch-green: #00d1b2;
+$sea-punch-turqouise: #00cfd1;
+
+
 $claret: #6e1834;
 $claret-1: #861d40;
 $claret-2: #a2254e;
@@ -23,14 +29,21 @@ $pizza-1: #f1b606;
 $pizza-2: #ffc636;
 $barberry: #e8df1c;
 
+
 // Breakpoints
-// $breakpoints: (
-//   xs: 320px,
-//   sm: 550px,
-//   md: 768px,
-//   lg: 1024px,
-//   xl: 1440px
-// );
+$breakpoints: (
+  xs: 320px,
+  sm: 550px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1440px
+);
+
+$xs: 320px;
+$sm: 550px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1440px;
 
 // Settings
 $menu-height: 96px;
@@ -39,19 +52,22 @@ $site-width-lg: 1440px;
 $grid-gap: 16px;
 $line-stroke: 8px;
 
+//gradients 
+
+$gradient-bold: linear-gradient(180deg, $hot-pink 0%, $fushia 100%);
+$gradient-sea-punch: linear-gradient(180deg, $sea-punch-green 0%, $sea-punch-turqouise 100%);
+
 :root {
   --spacing: 32px;
-  // --headerHeight: 100vh;
+  --headerHeight: 100vh;
 
-  // @include media('>=sm') {
-  //   --spacing: 32px;
-  // }
 
-//   @include media('>=lg') {
-//     --spacing: 64px;
-//   }
 
-//   @include media('>=xl') {
-//     --spacing: 80px;
-//   }
+  @media(min-width: $md){
+    --spacing: 64px;
+  }
+
+  @media(min-width: $lg){
+    --spacing: 64px;
+  }
 }

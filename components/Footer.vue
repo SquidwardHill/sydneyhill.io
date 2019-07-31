@@ -1,7 +1,7 @@
 <template>
   <footer>
-    <div class="container">
+    <!-- <div class="container">
       <h2>im da footer</h2>
-    </div>
+    </div> -->
   </footer>
 </template>

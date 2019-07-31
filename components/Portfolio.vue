@@ -1,15 +1,17 @@
 <template>
-  <div class="column is-one-third">
+  <div class="column is-half-tablet is-one-third-desktop  is-one-fourth-fullhd">
     <nuxt-link :to="'/portfolio/' + canonical">
-      <article
-        class="portfolio--item"
-        :style="{ backgroundImage: 'url(' + backgroundImage + ')' }"
-      >
-        <div class="portfolio--item-content">
-          <h4>{{ title }}</h4>
-          <p>{{ description }}</p>
-        </div>
-      </article>
+      <!-- <article
+        class="portfolio-item"
+        :style="{ backgroundImage: 'url(' + portfolioImage + ')' }"
+      ></article> -->
+      <img class="portfolio-item-image" :src="image" />
+      <div class="portfolio-item-content">
+        <h4 class="is-size-6">
+          <strong>{{ title }}</strong>
+        </h4>
+        <p>{{ description }}</p>
+      </div>
     </nuxt-link>
   </div>
 </template>
@@ -21,7 +23,7 @@ export default {
       type: String,
       default: ''
     },
-    backgroundImage: {
+    image: {
       type: String,
       default: ''
     },
@@ -52,3 +54,5 @@ export default {
   }
 }
 </script>
+
+<style scoped></style>
