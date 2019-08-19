@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container ">
         <div class="columns">
-          <div class="column">
+          <div class="column ">
             <h1 class="title has-text-white-bis has-underline-clementine">
               Hi, I'm Sydney.
             </h1>
@@ -15,15 +15,25 @@
             <!-- 😺This space is actively in
               progress or changing as I use it to tinker, experiment, and learn. -->
           </div>
-          <div class="column">
-            <div class="controls"></div>
-          </div>
+          <div class="column "></div>
         </div>
       </div>
     </div>
   </section>
 </template>
 
+<script>
+// import Spotify from '~/components/ModelBind.vue'
+// import Api from '~/components/Api.vue'
+// export default {
+//   components: {
+//     Api
+//   },
+//   data() {
+//     return {}
+//   }
+// }
+</script>
 <style scoped>
 /* .hero {
   background-image: url('~@/static/funky-bg.png');

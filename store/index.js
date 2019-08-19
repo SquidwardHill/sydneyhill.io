@@ -1,7 +1,17 @@
 export const state = () => ({
   portfolio: [
     {
-      id: '1',
+      id: '7',
+      canonical: 'Onyx',
+      title: 'Onyx Security Solutions',
+      description: 'Onyx Security rebranding, redesign and rebuild',
+      goal:
+        'Redesign and build and eccommerce website that is responsive, has great UX, and on a CMS.',
+      process: `Coming soon.`,
+      image: require('@/static/work/gifs/onyx.gif')
+    },
+    {
+      id: '6',
       canonical: 'SCC',
       title: 'Southeastern Climbers Coalition',
       description: 'Southeastern Climbers Coalition Website Redesign + Build',
@@ -11,7 +21,7 @@ export const state = () => ({
       image: require('@/static/work/seclimbers-home.jpg')
     },
     {
-      id: '2',
+      id: '5',
       canonical: 'Salsaritas',
       title: `Salsarita's`,
       description: "Salsarita's Website Redesign and Build",
@@ -22,7 +32,7 @@ export const state = () => ({
       image: require('@/static/work/gifs/salsaritas-home-2.gif')
     },
     {
-      id: '3',
+      id: '4',
       canonical: 'USXpress Corporate',
       title: 'U.S. Xpress Corporate',
       description: 'U.S. Xpress Corporate Website Redesign and Build',
@@ -33,7 +43,7 @@ export const state = () => ({
       image: require('@/static/work/gifs/usxpress-home-2.gif')
     },
     {
-      id: '4',
+      id: '3',
       canonical: 'Coolidge Memorial',
       title: 'Coolidge Memorial',
       description: 'Charles H. Coolidge Memorial Informational Website',
@@ -44,7 +54,7 @@ export const state = () => ({
       image: require('@/static/work/coolidge-hero.jpg')
     },
     {
-      id: '5',
+      id: '2',
       canonical: 'Valor',
       title: 'Valor',
       description:
@@ -56,7 +66,7 @@ export const state = () => ({
       image: require('@/static/work/gifs/valor.gif')
     },
     {
-      id: '6',
+      id: '1',
       canonical: 'USX AMP',
       title: 'U.S. Xpress + AMP',
       description: 'U.S. Xpress Jobs AMP pages design and build',
