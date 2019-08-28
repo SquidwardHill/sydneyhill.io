@@ -1,17 +1,19 @@
 export const state = () => ({
   portfolio: [
     {
-      id: '7',
-      canonical: 'Onyx',
-      title: 'Onyx Security Solutions',
-      description: 'Onyx Security rebranding, redesign and rebuild',
+      id: '8',
+      canonical: 'DCS',
+      title: 'Dupont Circle Solutions',
+      description: 'Custom Wordpress Theme Build',
       goal:
-        'Redesign and build and eccommerce website that is responsive, has great UX, and on a CMS.',
-      process: `Coming soon.`,
-      image: require('@/static/work/gifs/onyx.gif')
+        'Take a static HTML website and convert it to a Custom Wordpress Theme, Develop the Blog',
+      process:
+        'I worked with Dupont Circle Solutions to develop a custom Wordpress theme for their website. They already had the static site built, so my goal responsibility was to convert this to a Wordpress Theme, and then design and develop the Blog and Individual post pages based on the existing design and code. They wanted the ability to edit parts of the pages, as well as write content themselves, so I used custom fields to make content editable from the backend by page. This site is still in development.',
+      image: require('@/static/work/gifs/DCS-home.gif')
     },
+
     {
-      id: '6',
+      id: '7',
       canonical: 'SCC',
       title: 'Southeastern Climbers Coalition',
       description: 'Southeastern Climbers Coalition Website Redesign + Build',
@@ -19,6 +21,17 @@ export const state = () => ({
         'Redesign and build and eccommerce website that is responsive, has great UX, and on a CMS. SCC staff to be able to edit existing content, as well as create new content, pages, and modules after handoff.',
       process: `This is an on-going freelance project, the goal of which was to redesign and rebuild the existing Southeastern Climbers Coalition's website.The SCC is a 501(3)(c) non-profit, of which I am a member and care a lot about, so this was very much a passion project for me.\n\nI prototyped and designed the site using Figma and Photoshop.I chose to put the spotlight on the members in the design because they are really the lifeblood of the SCC by way of monetary, time and service donations.I wanted the site to feel relateable, as well as drive visitors to join or make donations.\n\nI built the site on Wordpress using a Divi child theme.I chose to go this route because Divi makes it easy for individuals to manipulate and create content with an easy visual editor, as well as many built in features and modules.Also, there were budget constraints, so this allowed me to get it up and running quickly--while adding custom CSS, Javascript, and PHP as needed.I used Woocommerce for the online sales, which I was able to get the staff comfortable with doing screenshares and instructional videos.`,
       image: require('@/static/work/seclimbers-home.jpg')
+    },
+    {
+      id: '6',
+      canonical: 'Onyx',
+      title: 'Onyx Security Solutions',
+      description: 'Onyx Security rebranding, redesign and rebuild',
+      goal:
+        'Redesign and build and eccommerce website that is responsive, has great UX, and on a CMS.',
+      process:
+        'I worked with Onyx Security Solutions during their rebranding to redesign and rebuild their website. They preferred to work off of their existing Wordpress website, so after I completed the design mockups in Figma, I set up a child theme and rebuilt the pages. The site is also a membership and ecommerce, so upon request I customized many of the woocommerce templates to achieve desired aesthetics and functionality.',
+      image: require('@/static/work/gifs/onyx.gif')
     },
     {
       id: '5',
