@@ -8,7 +8,7 @@ export const state = () => ({
       goal:
         'Develop a dashboard for users too manage all of their subscriptions, purchases, billing, and account information',
       process:
-        'In this project, we developed our own subscription software to manage our companies growing consumer base. We were doing our customer management and support in house, so we wanted a way to offload that work by giving our customers more autonomy. We came up with the basic needs for the dashboard and what funcitonality we would need, then I designed and built it. I used Figma for the design, and Laravel + Blade, Eloquent, Jquery, MySql',
+        'In this project, we developed our own subscription software to manage our companies growing consumer base. We were doing our customer management and support in house, so we wanted a way to offload that work by giving our customers more autonomy. We came up with the basic needs for the dashboard and what funcitonality we would need, then I designed and built it. I used Figma for the design, and Laravel + Blade, Eloquent, Sass, Jquery, Sql',
       image: require('@/assets/img/work/kab/kab-dash-home.jpg'),
       processImages: [
         {
