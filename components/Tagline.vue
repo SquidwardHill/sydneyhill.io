@@ -1,11 +1,9 @@
 <template>
   <footer class="tagline">
-    <div class="container">
+    <div class="container is-flex is-justify-content-space-between">
       <span class="has-text-white-ter">
-        Built with
-        <img class="tagline__icon" src="~/static/logos/heart-icon.png"/> using
-        <img class="tagline__icon" src="~/static/logos/nuxt-emoji.png"
-      /></span>
+        Built with <i class="fas fa-heart mx-1"></i> using <i class="fab fa-vuejs mx-1"></i> </span>
+       <a class="has-text-white-ter" href="sydneyehill@gmail.com"><i class="far fa-paper-plane mr-1"></i> sydneyehill@gmail.com</a>
     </div>
   </footer>
 </template>

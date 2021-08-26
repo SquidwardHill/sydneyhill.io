@@ -1,10 +1,16 @@
+//FRAMEWORK
+// @import '../../node_modules/bulma/sass/utilities/_all.sass';
+// @import '../../node_modules/bulma/sass/grid/columns.sass';
+
 // HELPERS
-@import 'helpers/variables';
-@import 'helpers/typography';
+@import 'base/variables';
+@import 'base/button';
+@import 'base/typography';
 //@import 'helpers/utilities';
 
 // PARTIALS
 @import './partials/header';
+@import './partials/hero';
 @import './partials/tagline';
 @import './partials/footer';
 @import './partials/nav';

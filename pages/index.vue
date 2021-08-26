@@ -1,12 +1,9 @@
 <template>
   <section>
     <Header></Header>
-    <!-- <Counter></Counter> -->
-    <Notepad></Notepad>
-    <!-- Portfolio -->
     <section class="portfolio">
       <div class="container has-padding-vertical has-padding-horizontal-mobile">
-        <div class="columns is-multiline">
+        <div id="more" class="columns is-multiline">
           <Portfolio
             v-for="item in portfolio"
             :key="item.id"
@@ -19,24 +16,17 @@
         </div>
       </div>
     </section>
-    <div class="test">
-      <Api v-for="friend in friends" :key="friend.id" :name="friend.name"></Api>
-    </div>
   </section>
 </template>
 
 <script>
 import Header from '~/components/Header.vue'
-import Notepad from '~/components/Notepad.vue'
-import Api from '~/components/Api.vue'
 import Portfolio from '~/components/Portfolio.vue'
 
 export default {
   components: {
     Header,
-    Notepad,
-    Portfolio,
-    Api
+    Portfolio
   },
   data() {
     return {}
@@ -78,7 +68,7 @@ export default {
   }
 } */
 
-page-enter-active,
+.page-enter-active,
 .page-leave-active {
   transition: all 0.2s ease-out;
 }

@@ -3,10 +3,10 @@
     class="navbar"
     role="navigation"
     aria-label="main navigation"
-    data-theme="navbar-dark"
+    data-theme=""
   >
     <div class="container">
-      <div class="navbar-brand">
+      <div class="">
         <!-- navbar items, navbar burger... -->
         <nuxt-link to="/" class="navbar-item has-text-white-bis"
           ><img class="logo" src="~/static/sydney-hill-script.svg"
@@ -27,10 +27,13 @@
             <a href="https://github.com/SquidwardHill" target="_blank"
               ><img src="@/static/logos/github-brands.svg"
             /></a>
+            <a href="https://github.com/SquidwardHill" target="_blank"
+              ><img src="@/static/logos/github-brands.svg"
+            /></a>
             <a href="https://www.linkedin.com/in/sydneyehill/" target="_blank"
               ><img src="@/static/logos/linkedin-in-brands.svg"
             /></a>
-            <a href="@mail-to:sydneyehill@gmail.com"
+            <a href="mailto:sydneyehill@gmail.com"
               ><img src="@/static/logos/paper-plane-solid.svg"
             /></a>
           </div>
@@ -40,23 +43,5 @@
   </nav>
 </template>
 <style scoped>
-nav {
-  background-color: #374a67;
-  color: #8f97a3;
-}
-a {
-  color: #a7afbb;
-}
-.logo {
-  max-height: 24px;
-}
-.brand-logos img {
-  max-width: 24px;
-  margin: 0 7px;
-  transition: 0.1s ease;
-}
-.brand-logos img:hover {
-  transform: scale(1.2);
-  transition: 0.1s ease;
-}
+
 </style>

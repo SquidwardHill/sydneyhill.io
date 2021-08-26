@@ -1,5 +1,4 @@
 <template>
-  <!-- Portfolio -->
   <section class="portfolio">
     <div class="columns">
       <Portfolio
@@ -9,6 +8,7 @@
         :canonical="item.canonical"
         :description="item.description"
         :image="item.image"
+        :images="item.process_images"
       ></Portfolio>
     </div>
   </section>

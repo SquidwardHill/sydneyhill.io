@@ -1,10 +1,6 @@
 <template>
   <div class="column is-half-tablet is-one-third-desktop  is-one-fourth-fullhd">
     <nuxt-link :to="'/portfolio/' + canonical">
-      <!-- <article
-        class="portfolio-item"
-        :style="{ backgroundImage: 'url(' + portfolioImage + ')' }"
-      ></article> -->
       <img class="portfolio-item-image" :src="image" />
       <div class="portfolio-item-content">
         <h4 class="is-size-6">
@@ -54,5 +50,3 @@ export default {
   }
 }
 </script>
-
-<style scoped></style>

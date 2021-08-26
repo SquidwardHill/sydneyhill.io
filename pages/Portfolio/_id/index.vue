@@ -3,16 +3,16 @@
     <div class="container ">
       <div class="columns">
         <div class="column is-three-quarters">
-          <h1 class="is-size-3 has-underline-clementine is-strong">
+          <h1 class="is-size-3 is-strong">
             {{ portfolio.title }}
           </h1>
         </div>
         <div class="column">
           <nuxt-link
             to="/"
-            class="button-close is-pulled-right has-gradient-sea-punch has-text-white-ter is-size-4"
-            >X</nuxt-link
-          >
+            class="button-close is-pulled-right has-gradient-sea-punch has-text-white-ter is-size-4">
+            <i class="fas fa-times-circle"></i>
+          </nuxt-link>
         </div>
       </div>
     </div>
@@ -28,6 +28,11 @@
         <br />
         <h5 class="is-size-6 is-strong">Process</h5>
         <p>{{ portfolio.process }}</p>
+        <br/>
+        <div v-for="(image, imageIndex) in portfolio.processImages">
+            <p class="mt-6 mb-3"><em>{{image.description}}</em></p>
+            <img :src="image.image" class="process__image" :key="imageIndex" />
+        </div>
       </div>
     </section>
   </section>

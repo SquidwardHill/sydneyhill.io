@@ -1,10 +1,41 @@
-// nav {
-//     background: linear-gradient(-30deg, #4a154bE5, #4a154bE5 45%, #4a154b 45%) #fff;
-// }
-// nav {
-//     background: linear-gradient(-30deg, rgba(60, 53, 60, 0.89804), rgba(14, 11, 14, 0.89804) 45%, #1f1b1f 45%) #fff;
-// }
+.nav {
+    &--hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        top: 6%;
+        position: relative;
+        color: $gray-900;
+        @media screen and (max-width: 768px) {
+            top: 4%;
+                padding-top: 2%;
+        }
+    }
+    &__col{
+        width: 50%;
+    }
+}
 
-nav {
-    background: #2DC4CE;
+.navbar {
+   &__buttons{
+            display: flex;
+            justify-content: flex-end;
+        & > a {
+                padding-top: 0;
+                padding-bottom: 2px;
+        }
+       
+   }
+   &-item {
+       font-weight: bold;
+       font-size: 20px;
+        @media screen and (max-width: 768px) {
+            font-size: 16px;
+        }
+        a:hover {
+            cursor: pointer;
+        }
+   }
 }

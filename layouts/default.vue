@@ -1,7 +1,6 @@
 <template>
   <div class="main">
-    <Nav></Nav>
-    <nuxt />
+    <nuxt/>
     <Footer></Footer>
     <Tagline></Tagline>
   </div>

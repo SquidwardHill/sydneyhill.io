@@ -7,9 +7,16 @@ $suva-gray: #8a7e85;
 $gravel: #504951;
 $ship-gray: #3b343c;
 $baltic-sea: #322c33;
+$dark: #161616;
+$gray-900:#1C1C1C;
 
-$hot-pink: #ED3897;
+$pink-100: #FFF2FE;
+$pink-300: #FFC9FA;
+$pink-700: #E72FD4;
+$pink-800: #ED3897;
 $fushia: #92278F;
+$mint: #DCFFF0;
+$light-sage: #B5D1C5;
 $sea-punch-green: #00d1b2;
 $sea-punch-turqouise: #00cfd1;
 
@@ -54,7 +61,7 @@ $line-stroke: 8px;
 
 //gradients 
 
-$gradient-bold: linear-gradient(180deg, $hot-pink 0%, $fushia 100%);
+$gradient-bold: linear-gradient(180deg, $pink-800 0%, $fushia 100%);
 $gradient-sea-punch: linear-gradient(180deg, $sea-punch-green 0%, $sea-punch-turqouise 100%);
 
 :root {
@@ -71,3 +78,6 @@ $gradient-sea-punch: linear-gradient(180deg, $sea-punch-green 0%, $sea-punch-tur
     --spacing: 64px;
   }
 }
+
+
+
