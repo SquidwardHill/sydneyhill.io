@@ -27,7 +27,7 @@
           <h1 class="title mb-4">I'm Sydney</h1>
           <p class="subtitle mt-0 mb-6">
             I'm a Front End Designer and Developer, tinkerer, and creative being. Outside of work you can find me on the trails running or mountain biking with my friends, rock climbing, or drawing. <br/><br/>
-            My portfolio is in progress, but you can check out some of my work below or on <a href="https://dribbble.com/hillse" target="_blank">Dribble</a>.
+            I'm in the process of revamping my portfolio, but you can check out some of my work below or on <a href="https://dribbble.com/hillse" target="_blank">Dribble</a>.
           </p>
           <a itemprop="url" class="btn btn--primary" v-on:click="scrollToElement({behavior: 'smooth'})">
             <span class="btn__text" >More.</span>
