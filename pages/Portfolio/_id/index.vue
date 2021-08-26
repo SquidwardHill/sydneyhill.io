@@ -10,7 +10,7 @@
         <div class="column">
           <nuxt-link
             to="/"
-            class="button-close is-pulled-right has-gradient-sea-punch has-text-white-ter is-size-4">
+            class="button--close">
             <i class="fas fa-times-circle"></i>
           </nuxt-link>
         </div>
@@ -60,13 +60,9 @@ p {
   white-space: pre-line;
 }
 
-.button-close {
-  height: 40px;
-  width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
+.button--close {
+  color: #055835;
+  font-size:30px;
 }
 .portfolio-page-image {
   max-width: 550px;
