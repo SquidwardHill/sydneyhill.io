@@ -35,7 +35,7 @@
         @media screen and (max-width: 768px) {
             font-size: 16px;
         }
-        a:hover {
+        &:hover {
             cursor: pointer;
             border: 2 px solid #4000f5;
             background: rgba(209, 194, 254, 100);
