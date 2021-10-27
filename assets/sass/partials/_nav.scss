@@ -1,5 +1,6 @@
 .nav {
     &--hero {
+        z-index: 10;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -36,6 +37,9 @@
         }
         a:hover {
             cursor: pointer;
+            border: 2 px solid #4000f5;
+            background: rgba(209, 194, 254, 100);
+            color: #4000f5;
         }
    }
 }
