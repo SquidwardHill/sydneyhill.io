@@ -1,13 +1,13 @@
 <template>
   <section class="has-padding-vertical">
-    <div class="container ">
+    <div class="container is-max-desktop">
       <div class="columns">
         <div class="column is-three-quarters">
           <h1 class="is-size-3 is-strong">
             {{ portfolio.title }}
           </h1>
         </div>
-        <div class="column">
+        <div class="column column has-text-right">
           <nuxt-link
             to="/"
             class="button--close">
@@ -18,7 +18,7 @@
     </div>
     <!-- route params is a default paramater given to you by the vue router -->
     <section class="portfolio-item">
-      <div class="container">
+      <div class="container  is-max-desktop">
         <br />
         <p>{{ portfolio.description }}</p>
         <img :src="portfolio.image" class="portfolio-page-image" />
@@ -54,24 +54,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-/* styles here */
-p {
-  white-space: pre-line;
-}
-
-.button--close {
-  color: #055835;
-  font-size:30px;
-}
-.portfolio-page-image {
-  max-width: 550px;
-  margin: 2rem 0;
-}
-@media screen and (min-width: 1408px) {
-  .container {
-    /* max-width: 1344px; */
-    max-width: 1152px;
-  }
-}
-</style>

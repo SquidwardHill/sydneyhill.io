@@ -42,6 +42,3 @@
     </div>
   </nav>
 </template>
-<style scoped>
-
-</style>

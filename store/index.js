@@ -1,10 +1,41 @@
 export const state = () => ({
   portfolio: [
     {
-      id: '9',
+      id: '10',
       canonical: 'kids-art-box',
       title: 'Kids Art Box',
-      description: 'Dashboard Design and Build',
+      description: 'Website Design and Build',
+      goal: 'Rebuild of Kids Art Box website, develop subscription software',
+      process: 'I was brought on to Kids Art Box gradually. Our primary goal was to move our website off of a third party CMS and build on laravel, so that we could build out the subscription software and have full control of the entire stack. As we did so, I redesigned different elements of the site. It was an interesting process doing it over time, as oppoosed to a focused re-brand/redesign effort. Still in progress. Designs in Figma and Illustrator, and build with Laravel + Blade, Eloquent, Sass, Jquery, Sql',
+      image: require('@/assets/img/work/kab/kab-home.gif'),
+      processImages: [
+        {
+          image: require('@/assets/img/work/kab/dribble-sfb-home.jpg'),
+          description: 'Figma design of Kids Art Box home page',
+          imageIndex: 3
+        },
+        {
+          image: require('@/assets/img/work/kab/book-blog.jpg'),
+          description: 'Figma design of Kids Art Box book blog',
+          imageIndex: 2
+        },
+        {
+          image: require('@/assets/img/work/kab/box-design.jpg'),
+          description: 'Box Design, hand drawn images then arranged and edited in Illustrator',
+          imageIndex: 1
+        },
+        {
+          image: require('@/assets/img/work/kab/damab-jungle.gif'),
+          description: 'Ad for Daddy and Me Art Box sub-product line',
+          imageIndex: 1
+        }
+      ]
+    },
+    {
+      id: '9',
+      canonical: 'kids-art-box-dashboard',
+      title: 'Kids Art Box Dashboard',
+      description: 'Subscription Software Design and Build',
       goal:
         'Develop a dashboard for users too manage all of their subscriptions, purchases, billing, and account information',
       process:

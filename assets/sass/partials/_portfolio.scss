@@ -1,8 +1,11 @@
 .portfolio-item-image {
     aspect-ratio: 2 / 1.18;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
-    @media screen and (max-width: 768px) {
-        max-width: 600px;
+    max-width: auto;
+
+    &:hover {
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        transition: .3s ease-in-out;
     }
 }
 
@@ -13,10 +16,30 @@
     position: relative;
 }
 
-
 .process {
     &__image {
         max-width: 600px;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
     }
 }
+
+p {
+    white-space: pre-line;
+}
+
+.button--close {
+    color: #055835;
+    font-size: 30px;
+}
+
+// .portfolio-page-image {
+//     max-width: 550px;
+//     margin: 2rem 0;
+// }
+
+// @media screen and (min-width: 1408px) {
+//     .container {
+//         /* max-width: 1344px; */
+//         max-width: 1152px;
+//     }
+// }
