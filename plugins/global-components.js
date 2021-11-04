@@ -5,6 +5,7 @@ import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import Tagline from '@/components/Tagline'
 
+
 const globalComponents = { Nav, Footer, Tagline }
 
 Object.entries(globalComponents).forEach(([name, component]) => {

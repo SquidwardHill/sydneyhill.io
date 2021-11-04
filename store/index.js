@@ -1,7 +1,7 @@
 export const state = () => ({
   portfolio: [
     {
-      id: '10',
+      id: '11',
       canonical: 'kids-art-box',
       title: 'Kids Art Box',
       description: 'Website Design and Build',
@@ -32,7 +32,7 @@ export const state = () => ({
       ]
     },
     {
-      id: '9',
+      id: '10',
       canonical: 'kids-art-box-dashboard',
       title: 'Kids Art Box Dashboard',
       description: 'Subscription Software Design and Build',
@@ -50,6 +50,39 @@ export const state = () => ({
         {
           image: require('@/assets/img/work/kab/dashboard-pause.jpg'),
           description: 'Pause/skip subscription funnel',
+          imageIndex: 1
+        }
+      ]
+    },
+    {
+      id: '9',
+      canonical: 'RME',
+      title: 'Rent My Equipment',
+      description: 'Website and App Design',
+      goal:
+        'Design a website and application for a peer to peer equipment rental business.',
+      process:
+        'I was brought as a designer for a peer to peer rental start up. This was my first experience specifically designing for an application. It was a unique challenge desiging in mind for both the "renter" and "rentee" and I very much enjoyed the process of thinking through so many different use scenarios and having to solve for them. In addition to designing I worked on the frontend of the app (React Native) and gave the existing website a facelift (Laravel). This was a fun, fast moving project built by a team of two.',
+      image: require('@/assets/img/work/rme/rme-screens.jpg'),
+      processImages: [
+        {
+          image: require('@/assets/img/work/rme/rme-marketplace.jpg'),
+          description: 'Banner Advertisement',
+          imageIndex: 3
+        },
+        {
+          image: require('@/assets/img/work/rme/checkout-flow.png'),
+          description: 'Thinking through the equipment checkout flow',
+          imageIndex: 2
+        },
+        {
+          image: require('@/assets/img/work/rme/search-filter.png'),
+          description: 'Search Filter',
+          imageIndex: 1
+        },
+        {
+          image: require('@/assets/img/work/rme/rme-website-homescreen.jpg'),
+          description: 'Website homescreen v1',
           imageIndex: 1
         }
       ]

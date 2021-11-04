@@ -42,6 +42,9 @@ export default {
     {
       src: '~plugins/global-components'
     },
+    {
+       src: '~plugins/vue-scrollactive'
+    }
   ],
 
   /*
