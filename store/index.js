@@ -182,17 +182,6 @@ export const state = () => ({
       image: require('@/static/work/gifs/usxpress-home-2.gif')
     },
     {
-      id: '3',
-      canonical: 'Coolidge Memorial',
-      title: 'Coolidge Memorial',
-      description: 'Charles H. Coolidge Memorial Informational Website',
-      goal:
-        'Design and build a website to promote the knowlege of Charles H. Coolidge and his impact on Chattanooga, as well as promote a memorial center in his honor.',
-      process:
-        'I worked on this project while I was at the Johnson Group. I prototyped and designed this site in Adobe Illustrator and Figma. Once I finalized the design, I was responsible for building the site. The next iteration of the site was mohm.org for which the center is brought to life.',
-      image: require('@/static/work/coolidge-hero.jpg')
-    },
-    {
       id: '2',
       canonical: 'Valor',
       title: 'Valor',
