@@ -62,7 +62,7 @@ export const state = () => ({
       goal:
         'Design a website and application for a peer to peer equipment rental business.',
       process:
-        'I was brought as a designer for a peer to peer rental start up. This was my first experience specifically designing for an application. It was a unique challenge desiging in mind for both the "renter" and "rentee" and I very much enjoyed the process of thinking through so many different use scenarios and having to solve for them. In addition to designing I worked on the frontend of the app (React Native) and gave the existing website a facelift (Laravel). This was a fun, fast moving project built by a team of two.',
+        'This was a fast moving project for a peer to peer equipment rental start up. I was brought to design and do some front-end work along side the primary developer for this project. It was a unique challenge designing in mind for both the "renter" and "rentee", as well as my first time specifically designing an app(and such a complex one). I very much enjoyed the process of thinking through so many different use scenarios and having to solve for them. In addition to designing I worked on the frontend of the app (React Native) and gave the existing website a facelift (Laravel). I\'m proud of how much our tiny team got done in just over a year!',
       image: require('@/assets/img/work/rme/rme-screens.jpg'),
       processImages: [
         {
@@ -83,6 +83,11 @@ export const state = () => ({
         {
           image: require('@/assets/img/work/rme/rme-website-homescreen.jpg'),
           description: 'Website homescreen v1',
+          imageIndex: 1
+        },
+        {
+          image: require('@/assets/img/work/rme/desktop-checkout.jpg'),
+          description: 'Website Checkout v1',
           imageIndex: 1
         }
       ]
