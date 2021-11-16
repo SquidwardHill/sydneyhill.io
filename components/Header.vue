@@ -26,8 +26,8 @@
         <div class="hero__content">
           <h1 class="title mb-4">I'm Sydney-</h1>
           <p class="subtitle mt-0 mb-6">
-            I'm a Front End Designer and Developer, tinkerer, and creative being. Outside of work you can find me on the trails running or mountain biking with my friends, rock climbing, or drawing. <br/><br/>
-            I'm currently in the process of revamping my portfolio. In the mean-time, you can check out some of my work below.
+            I'm a Front End Designer and Developer, tinkerer, and creative being. I specialize in bridging the gap between creative and technical problem solving.<br/><br/>
+            Outside of work you can find me on the trails running or mountain biking with my friends, rock climbing, or drawing.
           </p>
           <a itemprop="url" class="btn btn--primary" v-on:click="scrollToElement({behavior: 'smooth'})">
             <span class="btn__text" >More.</span>
