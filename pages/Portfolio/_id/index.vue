@@ -1,5 +1,5 @@
 <template>
-  <section class="has-padding-vertical">
+  <section class="has-padding-vertical portfolio__inner">
     <div class="container is-max-desktop">
       <div class="columns">
         <div class="column is-three-quarters">
